@@ -1,4 +1,4 @@
-# synthetic_attention
+### synthetic_attention
 
 @misc{tay2021synthesizer,
       title={Synthesizer: Rethinking Self-Attention in Transformer Models}, 
