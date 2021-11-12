@@ -25,7 +25,7 @@ class SyntheticAttention(nn.Module):
 
         Args:
             x (Tensor): of shape [batch_size, length, d_model]
-            mask (Tensor, optional): of shape [batch_size, length]
+            mask (Tensor, optional): of shape [batch_size, 1, length] or [batch_size, length, length]
 
         Returns:
             output & attention
