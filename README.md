@@ -8,7 +8,7 @@ layer = SyntheticAttention(d_model, max_length)
 
 x = torch.randn(batch_size, max_length - 10, max_length)
 
-outut = layer(x)
+output = layer(x)
 ```
 
 ## Reference
