@@ -2,11 +2,11 @@
 
 ## Usage
 ```python
-batch_size, max_length, max_length = 10, 100, 128
+batch_size, max_length, d_model = 10, 100, 128
 
 layer = SyntheticAttention(d_model, max_length)
 
-x = torch.randn(batch_size, max_length - 10, max_length)
+x = torch.randn(batch_size, max_length - 10, d_model)
 
 output = layer(x)
 ```
